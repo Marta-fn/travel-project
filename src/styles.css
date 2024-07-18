@@ -47,6 +47,9 @@ section.secondary {
 .card {
   background: white;
   margin: 30px 0;
+  min-height: 690px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-header.grid {
@@ -59,6 +62,7 @@ section.secondary {
 
 .card-footer {
   padding: 30px;
+  margin-top: auto;
 }
 
 .img-responsive {
